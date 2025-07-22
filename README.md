@@ -21,6 +21,24 @@ This Solidity smart contract allows users (guests) to store their favorite numbe
 
 ---
 
+## 🧪 Testing
+- You can use Remix IDE for simple testing:
+- Open Remix.
+- Paste the contract into a new Solidity file.
+- Compile with Solidity 0.8.x.
+- Deploy using Injected Provider - MetaMask for Sepolia.
+- Interact using the Remix UI.
+- Advanced testing (e.g., with Hardhat or Foundry) can be added later.
+
+---
+
+## ⚠️ Disclaimer
+This project is shared for educational and demonstrational purposes only.
+It is **not licensed for reuse, modification, or distribution**. Please do not copy, fork, or republish the code without explicit permission from the author.
+If you're interested in collaborating or using this code in any way, feel free to reach out.
+
+---
+
 ## 🛠️ Contract Structure
 
 ```solidity
@@ -47,22 +65,3 @@ mapping(string => uint256) public favNumOf;
 ## Events
 - PersonAdded(uint256 favNum, string name)
 - GuestFavNumberStored(uint256 favNum, string name)
-
----
-
-## 🧪 Testing
-- You can use Remix IDE for simple testing:
-- Open Remix.
-- Paste the contract into a new Solidity file.
-- Compile with Solidity 0.8.x.
-- Deploy using Injected Provider - MetaMask for Sepolia.
-- Interact using the Remix UI.
-- Advanced testing (e.g., with Hardhat or Foundry) can be added later.
-
----
-
-## ⚠️ Disclaimer
-This project is shared for educational and demonstrational purposes only.
-It is **not licensed for reuse, modification, or distribution**. Please do not copy, fork, or republish the code without explicit permission from the author.
-If you're interested in collaborating or using this code in any way, feel free to reach out.
-
